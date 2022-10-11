@@ -6,10 +6,12 @@
 console.log("\n Opdracht 1 \n ");
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
-
+console.log("vooraf:")
+console.log({names});
 for (let i = 0; i < names.length; i++) {
     names[i] = names[i] + "je";
 }
+console.log("achteraf:")
 console.log({names});
 
 // Verwachtte uitkomsten:
