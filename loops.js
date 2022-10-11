@@ -43,9 +43,9 @@ for (let i = 0; i <5 ; i++) {
 console.log("\n Opdracht 3 \n ");
 for (let i = 0; i < 16; i++) {
     if (i%2 === 0){
-        console.log(i + " is even.")
+        console.log(i + " is even.");
     } else {
-        console.log(i + " is oneven.")
+        console.log(i + " is oneven.");
     }
 }
 
@@ -65,3 +65,12 @@ for (let i = 0; i < 16; i++) {
 // >> 9
 // ==========================================
 console.log("\n Opdracht BONUS \n ");
+for (let i = 0; i < 10; i++) {
+    if (i<3){
+        console.log(i);
+    } else if (i >= 3 && i < 6){
+        console.log("> " + i);
+    } else if (i >= 6){
+        console.log(">> " + i);
+    }
+}
