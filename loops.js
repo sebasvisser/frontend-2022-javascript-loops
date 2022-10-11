@@ -5,6 +5,7 @@
 // Hoera!
 // Hoera!
 // ==========================================
+console.log("\n Opdracht 1 \n ");
 for (let i = 0; i < 3; i++) {
     console.log("Hoera");
 }
@@ -19,6 +20,7 @@ for (let i = 0; i < 3; i++) {
 // loop...
 // klaar!
 // ==========================================
+console.log("\n Opdracht 2 \n ");
 for (let i = 0; i <5 ; i++) {
     if (i<4) {
         console.log("loop...");
@@ -40,7 +42,7 @@ for (let i = 0; i <5 ; i++) {
 
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over. Google daarom eens naar 'mdn webdocs remainder operator'.
 // ==========================================
-
+console.log("\n Opdracht 3 \n ");
 
 
 // ==========================================
@@ -58,4 +60,4 @@ for (let i = 0; i <5 ; i++) {
 // >> 8
 // >> 9
 // ==========================================
-
+console.log("\n Opdracht BONUS \n ");
