@@ -62,6 +62,18 @@ console.log({numbers});
 console.log("\n Opdracht 3 \n ");
 
 const squares = [30, 2, 8, 24, 11];
+console.log("vooraf:")
+console.log({squares});
+for (let i = 0; i <squares.length ; i++) {
+    let volume = squares[i] * squares[i] * squares[i];
+    console.log("Het volume van " +
+    squares[i] +
+    " is " +
+    volume);
+}
+
+console.log("achteraf:")
+console.log({squares});
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
