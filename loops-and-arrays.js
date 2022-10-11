@@ -22,7 +22,6 @@ console.log({names});
 
 
 
-
 // ==========================================
 // Opdracht 2
 // Schrijf een script dat ieder EVEN getal in onderstaande array met 2 vermenigvuldigd, en ieder ONEVEN getal met 3
@@ -31,6 +30,18 @@ console.log({names});
 console.log("\n Opdracht 2 \n ");
 
 const numbers = [2, 4, 5, 29, 38];
+console.log("vooraf:")
+console.log({numbers});
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i]%2 === 0){
+        numbers[i] = numbers[i] * 2;
+    } else {
+        numbers[i] = numbers[i] * 3;
+    }
+}
+console.log("achteraf:")
+console.log({numbers});
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
